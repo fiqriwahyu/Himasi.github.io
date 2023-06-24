@@ -1,0 +1,141 @@
+body {
+    overflow-x: hidden;
+}
+
+.atas {
+    background-color: rgb(255, 255, 255);
+width: 100%;
+height: 131px;
+left: 0px;
+top: 0px;
+}
+
+.logo {
+    position: flex;
+width: 241.21px;
+height: 79px;
+left: 44px;
+top: 26px;
+margin-left: 100px;
+}
+
+.nav {
+    position: flex;
+width: 100%;
+height: 39px;
+left: 472px;
+top: 46px;
+align-items: center;
+}
+
+.jarak {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.containers {
+    /* margin-top: 130px; */
+    background-image: url('../img/Rectangle\ 95.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 1);
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inmg {
+    margin-left: -680px;
+    margin-top: 150px;
+    color: aliceblue;
+}
+
+.inmg h4 {
+width: 494px;
+height: 111px;
+left: 130px;
+top: 520px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.011em;
+
+color: #FFFFFF;
+}
+
+.inmg h1 {
+    width: 521px;
+height: 111px;
+left: 39px;
+top: 431px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.011em;
+}
+
+.parag h1 {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 24px;
+color: #000000;
+}
+
+.parag p {
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+color: #000000;
+}
+
+.ai {
+    width: 250px;
+    margin-left: -25px;
+}
+
+.niek {
+    width: 192px;
+    height: 192px;
+}
+
+.niek h3 p{
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #1C99F7;
+    width: 100%;
+    height: 266px;
+    position: relative;
+}
+
+.kaki {
+    /* text-align: right; */
+    text-align: end;
+    padding-top: 18vh ;
+    padding-right: 12vh;
+}

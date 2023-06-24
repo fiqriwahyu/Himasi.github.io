@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>input data arsip</title>
+    <link rel="stylesheet" href="css/11.arsip.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid atas">
+            <div style="margin-left: auto;" class="logo ms-1">
+                <img src="img/Logo himasi unja 2.png" alt="">
+            </div>
+        <ul class="nav col-5 justify-content-start">
+            <li class="nav-item jarak">
+                <a style="color: black;" class="nav-link">Sistem Informasi Arsip Digital Admin</a>
+            </li>
+        </ul>
+        <ul style="margin-left: 200px;" class="nav col-3 justify-content-end ">
+            <li class="nav-item jarak">
+                <a class="nav-link"><img src="img/Vector.png" alt=""></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+<div class="container-fluid garis" style="padding: 0px;">
+    <div class="row">
+        <div class="col-3">
+            <div class="sidebar">
+              <ul>
+
+                <p><span href="#"><img style="margin-top: -5px;" src="img/icon/dashboard.png" alt=""><a style="color: white; text-decoration: none; padding-left: 1rem;" href="./5.side.html">Dashboard</a> </span></p> 
+
+                <p><span href="#"><img style="margin-top: -5px;" src="img/icon/arsip masuk.png" alt=""><a style="color: white; text-decoration: none; padding-left: 1rem;" href="./6.arsipmasuk4.html">Arsip Masuk</a> </span><i class="dropdown-toggle"></i></p>
+
+                <p><span href="#"><img style="margin-top: -5px;" src="img/icon/arsip keluar.png" alt=""><a style="color: white; text-decoration: none; padding-left: 1rem;" href="./7.arsipkeluar.html">Arsip Keluar</a></span></p>
+                
+                <p><span href="#"><img style="margin-top: -5px;" src="img/icon/data keanggotaan.png" alt=""><a style="color: white; text-decoration: none; padding-left: 1rem;" href="./8.DK1.html">Data Keanggotaan</a></span></p>
+
+                <p><span href="#"><img style="margin-top: -5px;" src="img/icon/log out.png" alt=""> <a style="color:white; text-decoration: none; padding-left: 1rem;" href="./1.dashboard.html">Log out</a></span></p>
+
+              </ul>
+            </div>
+
+        </div>
+        <div class="container-fluid col-9 d-flex flex-column" style="padding: opx; justify-content: center; margin-top: 50px;">
+            <div style="margin-top: -50px;" class="row justify-content-center">
+                <div class="col">
+                    <div class="row d-flex justify-content-end">
+                        <div class="col-8">
+                            <H1>Surat Masuk</H1>
+                        </div>
+                            <div class="col-2">
+                                <button class="btn2" style="font-size: 20px;"><img style="padding-right: 10px;" src="img/icon/Add.png" alt="">Input Data</button>
+                            </div>
+                            <div class="col-2">
+                                <button class="btn2" style="font-size: 20px;"><img style="padding-right: 10px;" src="img/icon/kembali.png" alt=""> <a style="text-decoration: none; color: black;" href="./6.arsipmasuk4.html">kembali</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 641px; background-color:#1c98f74d ;" class="container mt-5" >
+                
+                
+                <div class="row">
+                    <div class="col-6 ll">
+                        <label for="">No. Surat</label> <br>
+                        <input class="inp" type="text "> 
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Ditujukan</label> <br>
+                        <input class="inp" type="text">
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Perihal</label> <br>
+                        <input class="inp" type="text">
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Berkas</label> <br>
+                        <input style="width: 60%; height: 50px; padding-top: 12px;" class="form-control d-flex " type="file" id="formFile">
+                        
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Tanggal Surat</label> <br>
+                        <input class="inp"type="text">
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Sifat Surat</label> <br>
+                        <div class="dropdown inp">
+                            <button style="width: 100%; background-color: white;" class="btn dropdown-toggle d-flex justify-content-end align-items-center" type="button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Jenis Surat</label> <br>
+                        <div class="dropdown">
+                            <button style="width: 100%; background-color: white;" class="btn dropdown-toggle d-flex justify-content-end align-items-center" type="button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Status Diposisi</label> <br>
+                        <div class="dropdown">
+                            <button style="width: 100%; background-color: white;" class="btn dropdown-toggle d-flex justify-content-end align-items-center" type="button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Pengirim</label> <br>
+                        <input class="inp" type="text">
+                    </div>
+                    <div class="col-6 ll">
+                        <label for="">Deskripsi</label> <br>
+                        <input style="height: 110px;" class="inp" type="text">
+                    </div>
+                    
+                </div>
+                <div class="row mt-5 d-flex justify-content-end align-items-center">
+                        <div class="col-2 ">
+                            <button >Previous</button>
+                        </div>
+                        <div class="col-2">
+                            <button ><a style="text-decoration: none; color: black;" href="./7.arsipkeluar.html">Next</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="foot">
+    <footer>
+        <h1 class="kaki">HIMASI | Dikelola oleh Dinas Ristek HIMASI</h1>
+    </footer>
+</div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
